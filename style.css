@@ -1,0 +1,32 @@
+body, html {
+  height: 100%;
+  background-color: #d1becf;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/3506329.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
